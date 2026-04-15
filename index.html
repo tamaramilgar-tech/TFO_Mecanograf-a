@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CGM Plataforma Completa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>CGM Mecanografía · Plataforma Completa</h1>
+<nav>
+<button onclick="show('teoria')">Teoría</button>
+<button onclick="show('practica')">Práctica</button>
+<button onclick="show('test')">Test</button>
+<button onclick="show('docente')">Docente</button>
+</nav>
+</header>
+
+<main>
+<section id="teoria"></section>
+<section id="practica" class="hidden"></section>
+<section id="test" class="hidden"></section>
+<section id="docente" class="hidden"></section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
